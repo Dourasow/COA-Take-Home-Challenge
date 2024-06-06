@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="photo" data-details="Fennec Fox - India">
+            <img src="assets/fox.jpeg" alt="Fennec Fox">
+            <div class="info">
+                <h3>Fennec Fox</h3>
+                <p>India</p>
+                <a href="#">Know more →</a>
+            </div>
+        </div>
+        <div class="photo" data-details="Humpback Whale - South Africa">
+            <img src="assets/whale.jpg" alt="Humpback Whale">
+            <div class="info">
+                <h3>Humpback Whale</h3>
+                <p>South Africa</p>
+                <a href="#">Know more →</a>
+            </div>
+        </div>
+        <div class="photo" data-details="Common Brown Baboon - South Africa">
+            <img src="assets/monkey.jpeg" alt="Common Brown Baboon">
+            <div class="info">
+                <h3>Common Brown Baboon</h3>
+                <p>South Africa</p>
+                <a href="#">Know more →</a>
+            </div>
+        </div>
+        <div class="photo" data-details="Spotted Deer - Amazon">
+            <img src="assets/deer.jpeg" alt="Spotted Deer">
+            <div class="info">
+                <h3>Spotted Deer</h3>
+                <p>Amazon</p>
+                <a href="#">Know more →</a>
+            </div>
+        </div>
+    </div>
+    <div class="full-size-view" id="fullSizeView">
+        <img src="" alt="Full Size View" id="fullSizeImage">
+        <div class="details" id="photoDetails"></div>
+        <button onclick="closeFullSizeView()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
