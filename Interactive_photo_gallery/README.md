@@ -17,7 +17,7 @@ Installation
 Clone the repository:
 sh
 Copy code
-git clone https://github.com/Dourasow/interactive-photo-gallery.git
+git clone https://github.com/Dourasow/COA-Take-Home-Challenge.git
 Navigate to the project directory:
 sh
 Copy code
@@ -45,4 +45,4 @@ Modify CSS in styles.css to change the appearance and behavior of the gallery.
 Update JavaScript in script.js for additional functionalities or changes in interaction.
 
 
-Project Link: https://github.com/Dourasow/interactive-photo-gallery
+Project Link: https://github.com/Dourasow/COA-Take-Home-Challenge.git
